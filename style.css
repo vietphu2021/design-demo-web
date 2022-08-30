@@ -10,3 +10,13 @@ a:-webkit-any-link {
 text-decoration: auto!important;
 color: pink!important;
 }
+.container {
+width: 1650px;
+}
+.row {
+width: 100%;
+}
+
+.container .row .vietphu {
+text-align: center;
+}
