@@ -12,6 +12,9 @@ color: pink!important;
 }
 .container {
 width: 1650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
 width: 100%;
