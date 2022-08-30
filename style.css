@@ -7,7 +7,9 @@ color: #0DB39E!important;
 }
 
 body {
-background-color: #f4f4f4;}
+background-color: #f4f4f4;
+margin:0px;
+}
 
 a:-webkit-any-link {
 text-decoration: auto!important;
