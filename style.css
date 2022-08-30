@@ -5,3 +5,8 @@ h1 .vietphu {
 font-size: 100px;
 color: #0DB39E!important;
 }
+
+a:-webkit-any-link {
+text-decoration: auto!important;
+color: pink!important;
+}
