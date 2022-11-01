@@ -47,18 +47,6 @@ if ( !$error ) {
 	}
 
 }
-add_action( 'phpmailer_init', function( $phpmailer ) {
-    if ( !is_object( $phpmailer ) )
-    $phpmailer = (object) $phpmailer;
-    $phpmailer->Mailer     = 'smtp';
-    $phpmailer->Host       = 'smtp.gmail.com';
-    $phpmailer->SMTPAuth   = 1;
-    $phpmailer->Port       = 587;
-    $phpmailer->Username   = 'gentra123456789@gmail.com'; //điền tài khoản gmail của bạn
-    $phpmailer->Password   = 'kgdpwsrggxbcfdwy'; //điền mật khẩu ứng dụng mà bạn đã tạo ở trên
-    $phpmailer->SMTPSecure = 'TLS';
-    $phpmailer->From       = 'gentra123456789@gmail.com'; //điền tài khoản gmail của bạn
-    $phpmailer->FromName   = 'Tên gửi';
-});
+
 ?>
 
